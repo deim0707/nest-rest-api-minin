@@ -29,7 +29,7 @@ export class ProductsController {
    */
   @Get()
   // @Redirect('https://google.com', 301)
-  getAll(@Req() req: Request, @Res() res: Response): string {
+  getAll(): string {
     return 'вернули все продукты';
   }
 
