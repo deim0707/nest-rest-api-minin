@@ -15,7 +15,7 @@ import { MongooseModule } from '@nestjs/mongoose';
     ToysModule,
     // ниже подключаемся к монго дб. пароль-аккаунт хорошо бы вынести в отдельный файл
     MongooseModule.forRoot(
-      `mongodb+srv://dm3iy:112345813@cluster0.8gx5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
+      `mongodb+srv://dm3iy:BiaujFUPpr0wSX3X@cluster0.8gx5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
     ),
   ],
   controllers: [AppController, ProductsController],
